@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Studio</title>
+<style>
+  :root { --bg:#fff; --fg:#111; --muted:#555; --line:#e5e5e5; --link:#0b57d0; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#111; --fg:#eee; --muted:#aaa; --line:#333; --link:#8ab4f8; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:48px 16px; }
+  h1 { font-size:32px; margin:0 0 8px; }
+  h2 { font-size:20px; margin:32px 0 8px; }
+  p, li { color:var(--fg); }
+  .muted { color:var(--muted); }
+  a { color:var(--link); }
+  hr { border:0; border-top:1px solid var(--line); margin:40px 0; }
+  footer { font-size:14px; color:var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Studio</h1>
+  <p class="muted">A private, self-hosted dashboard for managing my own YouTube channels.</p>
+
+  <h2>What Studio does</h2>
+  <ul>
+    <li>Shows analytics of my own YouTube channels (views, watch time, subscribers, impressions, click-through rate, estimated revenue) in one place.</li>
+    <li>Helps me plan, edit and prepare short-form videos and thumbnails before I upload them myself.</li>
+    <li>Runs on my own server. There is no public sign-up; only the owner of the channels uses it.</li>
+  </ul>
+
+  <h2>Google account access</h2>
+  <p>Studio asks for read-only access to YouTube data and YouTube Analytics of the channels I connect. It does not upload,
+  edit or delete videos, and it does not access any other Google data. See the
+  <a href="privacy.html">privacy policy</a> for details.</p>
+
+  <hr>
+
+  <h1 lang="de">Studio</h1>
+  <p class="muted" lang="de">Ein privates, selbst betriebenes Dashboard zur Verwaltung meiner eigenen YouTube-Kanäle.</p>
+  <p lang="de">Studio zeigt die Statistiken meiner eigenen Kanäle an und hilft beim Planen und Vorbereiten von Videos und
+  Thumbnails. Es läuft auf meinem eigenen Server, es gibt keine öffentliche Registrierung. Der Zugriff auf YouTube ist
+  nur lesend. Details in der <a href="privacy.html#de">Datenschutzerklärung</a>.</p>
+
+  <hr>
+  <footer><a href="privacy.html">Privacy policy / Datenschutzerklärung</a></footer>
+</main>
+</body>
+</html>
